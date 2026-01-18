@@ -1,0 +1,5 @@
+Table [images] references [produk] via column [produk_id]. On Delete: [CASCADE]
+Table [produk_images] references [produk] via column [produk_id]. On Delete: [NO ACTION]
+Table [produk_promos] references [produk] via column [produk_id]. On Delete: [NO ACTION]
+Table [cart_details] references [produk] via column [produk_id]. On Delete: [NO ACTION]
+Table [order_details] references [produk] via column [produk_id]. On Delete: [CASCADE]
